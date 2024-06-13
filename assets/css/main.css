@@ -427,6 +427,7 @@
     box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
     display: none;
     animation: fadein ease-in 0.2s;
+    cursor: default;
 }
 
 .header__cart-list::after {
