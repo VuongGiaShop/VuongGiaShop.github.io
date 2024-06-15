@@ -21,7 +21,7 @@
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
-                            Vào cửa hàng trên ứng dụng Vuong Gia Shop
+                            Vào cửa hàng trên ứng dụng Vương Gia Shop
 
                                   <!-- Header QR Code -->
                             <div class="header__qr">
@@ -148,13 +148,13 @@
             </div>
         </header>
 
-         <div class="container">
+         <div class="app__container">
             <div class="grid">
-                <div class="grid__row">
+                <div class="grid__row app__content">
                     <div class="grid__column-2">
                         <nav class="category">
                             <h3 class="category__heading">
-                                <i class="fas fa-list"></i>
+                                <i class="category__heading-icon fas fa-list"></i>
                                 Danh Mục
                             </h3>
                             <ul class="category-list">
@@ -175,6 +175,33 @@
                     </div>
 
                     <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__lablel">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                            </div>  
+                            
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>
+                                    /14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         
                     </div>
             </div>          
